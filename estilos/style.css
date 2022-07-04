@@ -1,0 +1,66 @@
+
+body{
+    background-image: url('../img/fondo.jpg');
+    /* background:linear-gradient(90deg, royalblue, lightblue) ; */
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.mensajeConteiner{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 650px;
+    height: 300px;
+    border: 3px inset blue;
+}
+
+h2{
+    text-align: center;
+}
+
+.uno{
+    border: 3px inset red;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    width: 100px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: grey;
+    border: 2px solid black;
+}
+
+.boton:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.in{
+    width: 30em;
+    height: 150px;
+    border: 2px outset grey;
+    border-radius: 12px;
+    margin: 5px;
+}
+
